@@ -10,8 +10,6 @@
     font-family: 'Noto Serif JP', serif;
 }
 
-#header {}
-
 #content {
     padding: 0 5%;
     font-size: 114%;
@@ -21,6 +19,11 @@
 
 #hlink {
     color: #FFFFFB;
+}
+
+#footer {
+    margin-top: 1em;
+    margin-bottom: 4em;
 }
 
 .popup {
@@ -46,11 +49,20 @@ h3 {
     font-weight: 100;
 }
 
+h3{
+    margin-block-end: 0.2em;
+}
+
 a {
     color: #A5DEE4;
     text-decoration: none;
 }
 
+ul{
+    margin-block-start: 0em;
+}
+
 li {
-    margin: 1px;
+    margin: 2px;
+    list-style-type: circle;
 }

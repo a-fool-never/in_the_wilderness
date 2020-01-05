@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- 予定:フォント後読み込み、スマホ対応、スクロールバー対応 -->
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>籠鳥風を恋い花影空を舞う</title>
@@ -8,7 +9,7 @@
         url = 'https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,300&subset=japanese'
         xhr = new XMLHttpRequest()
         xhr.open('GET', url)
-        xhr.onreadystatechange = function() {
+        xhr.onreadystatechange = function () {
             if (xhr.readyState !== 4 || xhr.status !== 200) return
             var style
             style = document.createElement('style')
@@ -29,18 +30,20 @@
             <h2>bio</h2>
             <p>アイカツ！とソニックとゲームと音楽と楽器とかが好き</p>
             <ul>
-                <li><a href="./played_game.html">プレイしたゲーム</a></li>
-                <li><a href="./sin_game.html">罪ゲー</a></li>
-                <li><a href="./watched_anime.html">視聴したアニメ</a></li>
+                <li><a href="played_game.html">プレイしたゲーム</a></li>
+                <li><a href="sin_game.html">罪ゲー</a></li>
+                <li><a href="watched_anime.html">視聴したアニメ</a></li>
                 <li>作った箏譜</li>
-                <li><a href="./went_event.html">行けたイベント　～自分が行けたイベントこそが最高のイベントである～</a></li>
+                <li><a href="went_event.html">行けたイベント</a></li>
             </ul>
             <!--  <p>-方面のリスト(見ても時間の無駄で何も良いことがないので見ないで)</p> -->
             <!--  <ul> -->
-            <!--      <li><a href="./emviy.html">嫉妬の炎に焼かれて[REDACTED]　行けなかったevent　～端的に言って爆せろ～</a></li> -->
+            <!--      <li><a href="emvy.html">嫉妬の炎に焼かれて[REDACTED]　行けなかったevent　～端的に言って爆せろ～</a></li> -->
             <!--  </ul> -->
             <p><a href="https://marshmallow-qa.com/a_fool_never">マシュマロ</a></p>
         </div>
-        <div id="footer">2019</div>
+        <div id="footer">2020</div>
     </div>
-</body></html>
+</body>
+
+</html>
