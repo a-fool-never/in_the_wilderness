@@ -54,7 +54,6 @@ table td {
 }
    
 li {
-    margin: 2px;
     list-style-type: circle;
 }
 
@@ -63,16 +62,21 @@ li {
     #wrapper {
         width: 100%;
     }
+
+    h1{
+        font-size: 175%;
+    }
         
     #content {
         padding: 0 5%;
     }
-
-        #footer {
+    
+    #footer {
         margin-top: 2em;
         margin-bottom: 3em;
     }
 }
+
 @media screen and (min-width:896px) {
      
     #wrapper {
