@@ -11,19 +11,11 @@
 }
 
 #content {
-    padding: 0 5%;
-    font-size: 114%;
-    width: 850px;
     font-weight: lighter;
 }
 
 #hlink {
     color: #FDFDEE;
-}
-
-#footer {
-    margin-top: 1em;
-    margin-bottom: 4em;
 }
 
 .popup {
@@ -49,31 +41,9 @@ h3 {
     font-weight: 100;
 }
 
-h3{
-    margin-block-end: 0.2em;
-}
-
 a {
     color: #A5DEE4;
     text-decoration: none;
-}
-
-ul{
-    margin-block-start: 0em;
-}
-
-li {
-    margin: 2px;
-    list-style-type: circle;
-}
-
-table tr td:nth-child(1) {
-  width:570px;
-}
-
-table th, table td{
-    border: 1px solid #222;
-    padding: 3px;
 }
 
 table th{
@@ -84,4 +54,61 @@ table th{
 table td {
     color: #FDFDEE;
     background-color: #323232;
+}
+
+@media screen and (max-width:1024px) { 
+    /* 画面サイズが1024px未満はここを読み込む */
+   
+    #wrapper {
+        font-size: 102%;
+    }
+        
+    #content {
+        padding: 0 5%;
+    }
+
+        #footer {
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+}
+@media screen and (min-width:1024px) {
+    /* 画面サイズが1024pxからはここを読み込む */
+     
+    #wrapper {
+        font-size: 114%;
+    }
+
+    #content {
+        padding: 0 5%;
+        width: 850px;
+    }
+    
+    #footer {
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+    
+    h3{
+        margin-block-end: 0.2em;   
+    }
+    
+    ul{
+        margin-block-start: 0em;
+    }
+    
+    li {
+        margin: 2px;
+        list-style-type: circle;
+    }
+    
+    table tr td:nth-child(1) {
+        width:570px;
+    }
+    
+    table th, table td{
+        border: 1px solid #222;
+        padding: 3px;
+    }
+    
 }
