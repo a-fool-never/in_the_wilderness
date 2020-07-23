@@ -52,13 +52,16 @@ table td {
     color: #FDFDEE;
     background-color: #323232;
 }
+   
+li {
+    margin: 2px;
+    list-style-type: circle;
+}
 
-@media screen and (max-width:1112px) { 
+@media screen and (max-width:896px) { 
    
     #wrapper {
         width: 100%;
-        max-width: 1112px;
-        font-size: 110%;
     }
         
     #content {
@@ -70,7 +73,7 @@ table td {
         margin-bottom: 3em;
     }
 }
-@media screen and (min-width:1112px) {
+@media screen and (min-width:896px) {
      
     #wrapper {
         width: 100%;
@@ -80,7 +83,6 @@ table td {
 
     #content {
         padding: 0 5%;
-        width: 850px;
     }
     
     #footer {
@@ -98,7 +100,6 @@ table td {
     
     li {
         margin: 2px;
-        list-style-type: circle;
     }
     
     table tr td:nth-child(1) {
