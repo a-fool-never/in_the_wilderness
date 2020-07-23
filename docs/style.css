@@ -56,11 +56,10 @@ table td {
     background-color: #323232;
 }
 
-@media screen and (max-width:1080px) { 
-    /* 画面サイズが1024px未満はここを読み込む */
+@media screen and (max-width:1112px) { 
    
-    #wrapper {
-        font-size: 102%;
+    body {
+        font-size: 110%;
     }
         
     #content {
@@ -72,11 +71,11 @@ table td {
         margin-bottom: 3em;
     }
 }
-@media screen and (min-width:1080px) {
-    /* 画面サイズが1024pxからはここを読み込む */
+@media screen and (min-width:1112px) {
      
-    #wrapper {
+    body {
         font-size: 114%;
+        width: 100%;
     }
 
     #content {
