@@ -27,7 +27,8 @@
         </div>
         <div id="content">
             <h2>視聴したアニメ</h2>
-            <p>2020/3 更新:闇芝居 六期</p>
+            <p>2020/7 追加:かくしごと</p>
+            <p id="number-of-works"></p>
             <h3>1996年</h3>
             <ul>
                 <li>ソニック・ザ・ヘッジホッグ (OVA)</li>
@@ -149,5 +150,14 @@
         <div id="footer"><a href="index.html">戻る</a></div>
     </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+    $(function () {
+        var size = $('li').length;
+        var element = document.getElementById('number-of-works');
+        element.innerHTML = "計" + size + "作品";
+    });
+</script>
 
 </html>

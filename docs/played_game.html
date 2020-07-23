@@ -28,7 +28,7 @@
         <div id="content">
             <h2>プレイしたゲーム</h2>
             <p>2020/07 追加:Xenoblade Definitive Edition</p>
-            <p id="test-table">テスト</p>
+            <p id="number-of-works"></p>
             <h3>ファミリーコンピュータ</h3>
             <ul>
                 <li>スーパーマリオブラザーズ</li>
@@ -269,8 +269,8 @@
 <script>
     $(function () {
         var size = $('li').length;
-        var element = document.getElementById('test-table');
-        element.innerHTML = size;
+        var element = document.getElementById('number-of-works');
+        element.innerHTML = "計" + size + "作品";
     });
 </script>
 
