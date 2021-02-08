@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>籠鳥風を恋い花影空を舞う</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180319060-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180319060-1');
+    </script>
+    <script>
+        url = 'https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,300&subset=japanese'
+        xhr = new XMLHttpRequest()
+        xhr.open('GET', url)
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState !== 4 || xhr.status !== 200) return
+            var style
+            style = document.createElement('style')
+            style.innerHTML = xhr.responseText.replace(/}/g, 'font-display: swap; }')
+            document.head.appendChild(style)
+        }
+        xhr.send()
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1><a id="hlink" href="index.html">籠鳥風を恋い花影空を舞う</a></h1>
+        </div>
+        <div id="content">
+            <h2>少女☆歌劇 レヴュースタァライト関係</h2>
+            <h3>呼称表(呼び方表)</h3>
+            <a href="https://docs.google.com/spreadsheets/d/1nqm1MepuCj424rMsUBcPyhMf35QkFyngqjyh7roRCnE">スタリラ呼称表</a>
+            <p>キャラの呼び方が分からん！ということに加えて公式になさそうで、スタリラのキャラを含めたものは誰も作ってなさそうだったので作りました。作成途中のため、エビデンス(スクショ)と一緒にTwitterアカウントへリプライをしてもらえると追加・修正します。
+            </p>
+
+        </div>
+        <div id="footer"><a href="index.html">戻る</a></div>
+
+    </div>
+</body>
+
+</html>
